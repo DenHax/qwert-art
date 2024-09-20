@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Выпадающее меню слева -->
+      <div class="dropdown-menu">
+        <button class="dropbtn">≡</button>
+        <div class="dropdown-content">
+          <p>Main menu</p>
+          <a href="#">Main page</a>
+          <a href="#">Contents</a>
+          <a href="#">Current events</a>
+          <a href="#">Current events</a>
+        </div>
+      </div>
+
+      <div class="search-container">
+        <button class="search-button" id="search-icon">
+          <img src="search-icon.png" alt="🔍︎">
+        </button>
+        <input type="text" id="search-input" placeholder="Поиск..." aria-label="Поиск" style="display: none;">
+        <button type="submit" id="submit-search" style="display: none;">Search</button>
+      </div>
+
+      <!-- Кнопка для изменения внешнего вида страницы -->
+      <div class="theme-dropdown">
+        <button class="dropbtn">🕶</button>
+        <div class="dropdown-content">
+          <a href="#">Светлая тема</a>
+          <a href="#">Темная тема</a>
+        </div>
+      </div>
+
+      <div class="auth-buttons">
+        <button class="create-account">Create account</button>
+        <button class="login">Log in</button>
+      </div>
+    </div>
+  </header>
+  <script src="index.js"></script>
+  <main></main>
+  <footer></footer>
+</body>
+
+</html>
