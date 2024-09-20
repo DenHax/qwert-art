@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Википедия-подобный сайт</title>
   <link href="./style.css" rel="stylesheet">
 </head>
 
@@ -15,10 +15,12 @@
         <button class="dropbtn">≡</button>
         <div class="dropdown-content">
           <p>Main menu</p>
-          <a href="#">Main page</a>
-          <a href="#">Contents</a>
-          <a href="#">Current events</a>
-          <a href="#">Current events</a>
+          <ul>
+            <li><a href="#">Main page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Current events</a></li>
+            <li><a href="#">Random article</a></li>
+          </ul>
         </div>
       </div>
 
@@ -26,7 +28,7 @@
         <button class="search-button" id="search-icon">
           <img src="search-icon.png" alt="🔍︎">
         </button>
-        <input type="text" id="search-input" placeholder="Поиск..." aria-label="Поиск" style="display: none;">
+        <input type="text" id="search-input" placeholder="Search" aria-label="Поиск" style="display: none;">
         <button type="submit" id="submit-search" style="display: none;">Search</button>
       </div>
 
@@ -47,8 +49,30 @@
     </div>
   </header>
   <script src="index.js"></script>
-  <main></main>
-  <footer></footer>
+  <main>
+    <article>
+      <h2>Заголовок статьи</h2>
+      <p>From Wikipedia, the free encyclopedia</p>
+      <p><i>For other uses, see <a href="https://en.wikipedia.org/wiki/Qwerty_(disambiguation)">QWERTY
+            (disambiguation)</a>.
+          Not to be confused with <a href="https://en.wikipedia.org/wiki/QWERTZ">QWERTZ</a> or <a
+            href="https://en.wikipedia.org/wiki/AZERTY">AZERTY</a>.</i></p>
+
+      <p>ANSI QWERTY keyboard layout (US)
+        Remington 2 typewriter keyboard, 1878
+        A laptop computer keyboard using the QWERTY layout
+
+        QWERTY is a <a href="#">keyboard layout</a> for <a href="#">Latin-script alphabets</a>. The name comes from the
+        order of
+        the first six <a>keys</a> on the top letter row of the keyboard: <>QWERTY. The QWERTY design is based on a
+          layout
+          included in the Sholes and Glidden typewriter sold via E. Remington and Sons from 1874. QWERTY became popular
+          with the success of the Remington No. 2 of 1878 and remains in ubiquitous use. </p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; Prod by DenHax</p>
+  </footer>
 </body>
 
 </html>
