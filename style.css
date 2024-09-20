@@ -100,6 +100,31 @@ header {
   background-color: #e0e0e0;
 }
 
+.paragraph1 {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph1 p {
+  margin-left: 20px;
+}
+
+.paragraph1 .image-box {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-image {
+  margin-left: 20px;
+  max-width: 400px;
+  height: auto;
+}
+
 main {
   padding: 20px;
   max-width: 800px;
